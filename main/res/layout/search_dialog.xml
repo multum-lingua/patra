@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:showDividers="middle"
+    android:divider="#CCCCCC"
+    android:clickable="false"
+    android:dividerPadding="20dp"
+    android:paddingTop="10dp"
+    android:minWidth="250dp">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@+id/editText"
+        android:id="@+id/editText"
+        android:singleLine="false"
+        android:hint="@string/find_text"/>
+    <CheckBox
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/case_sensitive"
+        android:id="@+id/checkBoxUseCase"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/whole_word"
+        android:id="@+id/checkBoxWholeWord"/>
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/radioGroup"
+        android:focusableInTouchMode="false">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/forward_from_current"
+            android:id="@+id/rbForwardFromCurrent"/>
+        <RadioButton android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/backward_from_current"
+                     android:id="@+id/rbBackwardFromCurrent"/>
+        <RadioButton android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/forward_from_begin"
+                     android:id="@+id/rbForwardFromBegin"/>
+        <RadioButton android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/backward_from_end"
+                     android:id="@+id/rbBackwardFromEnd"/>
+    </RadioGroup>
+</LinearLayout>

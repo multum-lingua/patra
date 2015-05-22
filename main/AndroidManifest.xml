@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.poterin.patra"
+          android:installLocation="auto"
+          android:versionCode="23"
+          android:versionName="1.22">
+
+    <uses-sdk android:minSdkVersion="11"
+              android:targetSdkVersion="19"/>
+
+    <supports-screens android:smallScreens="false"
+                      android:normalScreens="true"
+                      android:largeScreens="true"
+                      android:xlargeScreens="true"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/ic_launcher"
+                 android:theme="@android:style/Theme.Holo.NoActionBar"
+                 android:allowBackup="true"
+        >
+        <activity android:name="MainActivity"
+                  android:configChanges="orientation|screenSize"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DocumentViewerActivity"
+                  android:configChanges="orientation|screenSize"
+            />
+        <activity android:name=".Settings"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize"
+                  android:label="@string/menu_settings"
+                  android:icon="@drawable/menu_settings"
+            />
+        <activity android:name="com.lamerman.FileDialog"
+                  android:configChanges="orientation|screenSize"
+                  android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar"
+            />
+        <activity android:name=".BookLoaderActivity"
+                  android:configChanges="orientation|screenSize"
+            />
+        <activity android:name=".DictionaryActivity"
+                  android:configChanges="orientation|screenSize"
+                  android:label="@string/menu_my_dictionary"
+                  android:icon="@drawable/menu_my_dictionary"
+            />
+    </application>
+</manifest>

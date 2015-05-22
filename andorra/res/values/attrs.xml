@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberScroller">
+        <attr name="android:textColor"/>
+        <attr name="android:textSize"/>
+        <attr name="minTextWidth" format="dimension"/>
+        <attr name="buttonSize" format="dimension"/>
+        <attr name="leftDrawable" format="integer"/>
+        <attr name="rightDrawable" format="integer"/>
+        <attr name="showSeekBar" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="NumberScrollerPreferences">
+        <attr name="min" format="float"/>
+        <attr name="max" format="float"/>
+        <attr name="step" format="float"/>
+        <attr name="format" format="string"/>
+    </declare-styleable>
+</resources>

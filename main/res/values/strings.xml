@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multum Lingua</string>
+    <string name="translate">Translate</string>
+    <string name="menu_scroll">Scroll</string>
+    <string name="menu_bookmarks">Bookmarks</string>
+    <string name="menu_search">Find text</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_add_bookmark">Add bookmark</string>
+    <string name="menu_voice">Voice phrase</string>
+    <string name="menu_day_night">Day/Night</string>
+    <string name="menu_my_dictionary">My dictionary</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="about">About</string>
+    <string name="internet_library">Internet Library</string>
+    <string name="open_book">Open Book</string>
+    <string name="phrases_on_page">Phrases on page</string>
+    <string name="font_size">Font size</string>
+    <string name="default_dictionary">Default dictionary</string>
+    <string name="incorrect_document">Incorrect document</string>
+    <string name="incorrect_document_version">Incorrect document version</string>
+    <string name="incorrect_library_version">Incorrect library version. Try update the application.</string>
+    <string name="dictionary_not_found">The dictionary \"%1$s\" is not found. Please install dictionary.</string>
+    <string name="original_language">Original language</string>
+    <string name="translation_language">Translation Language</string>
+    <string name="undefined_phrase">Language not found: %1$s</string>
+    <string name="file_not_found">File not found: %1$s</string>
+    <string name="delete_document">Do you really want to remove book \"%1$s\" from the history?</string>
+    <string name="loading_book">Loading book ...</string>
+    <string name="loading_catalogue">Loading catalogue ...</string>
+    <string name="connection_error">Connection to library server error. Please check network settings.</string>
+    <string name="bookmark_position">%1$.1f%%; Phrase #%2$d</string>
+    <string name="delete_bookmark">Delete bookmark?</string>
+    <string name="bookmark_is_added">Bookmark is added.</string>
+    <string name="close">Close</string>
+    <string name="add_to_dictionary">Add to dictionary</string>
+    <string name="edit_phrase_word">Edit word/phrase</string>
+    <string name="add_phrase_word">Add word/phrase</string>
+    <string name="delete_selected">Delete selected</string>
+    <string name="edit_selected">Edit selected</string>
+    <string name="delete_all">Delete all</string>
+    <string name="reset_study_progress">Reset study progress</string>
+    <string name="delete_learned_words">Delete learned words</string>
+    <string name="delete_learned_words_question">Delete all (%1$d) learned words?</string>
+    <string name="no_learned_words">There are no learned words</string>
+    <string name="delete_selected_items">Delete selected (%1$d) items?</string>
+    <string name="reset_study_progress_selected_items">Reset study progress for selected (%1$d) items?</string>
+    <string name="delete_all_items">Delete all items?</string>
+    <string name="study_words">Study the words</string>
+    <string name="no_unstudied_words">There are no unstudied words in the dictionary.</string>
+    <string name="voice_in_training">Voice in training</string>
+
+    <string name="about_text"><![CDATA[
+        <h3>%1$s</h3>
+        <a href="mailto:r.v.poterin@gmail.com">r.v.poterin@gmail.com</a>
+        <br/><br/>
+        <a href="http://poterin.ru/ml/">More information</a>
+        <br/>
+    ]]>
+    </string>
+
+    <string name="studying_statistics">Total words: %1$d\nKnown from them: %2$d</string>
+    <string name="delete_bookmark_after_use">Delete bookmark after using</string>
+    <string name="delete_bookmark_after_insert">Delete old bookmarks after insert new one</string>
+    <string name="page">Page:</string>
+    <string name="phrase">Phrase:</string>
+    <string name="find_text">input text</string>
+    <string name="case_sensitive">Use case</string>
+    <string name="whole_word">Whole word</string>
+    <string name="forward_from_current">Forward from current page</string>
+    <string name="backward_from_current">Backward from current page</string>
+    <string name="forward_from_begin">Forward from begin of book</string>
+    <string name="backward_from_end">Backward from end of book</string>
+    <string name="text_not_found">Text not found.</string>
+    <string name="tap_on_edge_scroll">Scroll on the left/right edge tap</string>
+    <string name="cannot_open_book">Can\'t open the book:</string>
+    <string name="speech_speed">Speech speed</string>
+    <string name="yandex_translating">Translating by \"Yandex.Translation\", wait please ...</string>
+    <string name="yandex_translate_error">
+        Connection to \"Yandex.Translation\" server error. Please check network settings.
+    </string>
+    <string name="translate_by_yandex">Translate by \"Yandex.Translation\" in the absence of translation</string>
+    <string name="genre">Genre</string>
+    <string name="to_dictionary">To dictionary</string>
+    <string name="read_method">Reading method</string>
+    <string name="filter">Filter</string>
+    <string name="expand_all">Expand all</string>
+    <string name="collapse_all">Collapse all</string>
+    <string name="no_book">No books satisfying these conditions</string>
+    <string name="page_margins">Page margins</string>
+    <string name="left_margin">Left</string>
+    <string name="right_margin">Right</string>
+    <string name="top_margin">Top</string>
+    <string name="bottom_margin">Bottom</string>
+    <string name="scroll_on_volume_key">Scroll by volume keys</string>
+    <string name="is_night_mode">Night mode</string>
+    <string name="word_phrase">Word/Phrase</string>
+    <string name="translation">Translation</string>
+    <string name="found_translation">In dictionary: %1$s</string>
+    <string name="i_know">I know</string>
+    <string name="i_dont_know">I don\'t know</string>
+    <string name="i_knew">I knew</string>
+    <string name="i_didnt_know">I didn\'t know</string>
+
+    <string-array name="genre_list">
+        <item>Anyone</item>
+        <item>Child</item>
+        <item>Adult</item>
+    </string-array>
+
+    <string-array name="read_method_list">
+        <item>Anyone</item>
+        <item>Parallel translation</item>
+        <item>Frank method</item>
+    </string-array>
+
+    <string-array name="dictionaries">
+        <item>Google Translator</item>
+        <item>ColorDict/GoldenDict</item>
+        <item>Yandex.Dictionary</item>
+    </string-array>
+
+</resources>
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+    >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_margin="10dp"
+        android:fillViewport="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="false"
+            >
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/original_language"
+                />
+            <Spinner android:id="@+id/spinnerPrimaryLanguage"
+                     android:layout_width="match_parent"
+                     android:layout_height="40dp"
+                />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/translation_language"
+                />
+            <Spinner android:id="@+id/spinnerSecondaryLanguage"
+                     android:layout_width="match_parent"
+                     android:layout_height="40dp"
+                />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/genre"
+                />
+            <Spinner android:id="@+id/spinnerGenre"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:entries="@array/genre_list"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/read_method"
+                />
+            <Spinner android:id="@+id/spinnerReadMethod"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:entries="@array/read_method_list"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

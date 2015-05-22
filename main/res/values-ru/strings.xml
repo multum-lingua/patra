@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multum Lingua</string>
+    <string name="translate">Перевести</string>
+    <string name="menu_scroll">Прокрутка</string>
+    <string name="menu_bookmarks">Закладки</string>
+    <string name="menu_search">Поиск</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_exit">Выход</string>
+    <string name="menu_add_bookmark">Добавить закладку</string>
+    <string name="menu_voice">Озвучить фразу</string>
+    <string name="menu_day_night">День/Ночь</string>
+    <string name="menu_my_dictionary">Мой словарь</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">OK</string>
+    <string name="about">О программе</string>
+    <string name="internet_library">Интернет Библиотека</string>
+    <string name="open_book">Открыть книгу</string>
+    <string name="phrases_on_page">Фраз на странице</string>
+    <string name="font_size">Размер шрифта</string>
+    <string name="default_dictionary">Словарь по-умолчанию</string>
+    <string name="incorrect_document">Некорректный документ</string>
+    <string name="incorrect_document_version">Некорректная версия документа.</string>
+    <string name="incorrect_library_version">Некорректная версия библиотеки. Попробуйте обновить приложение.</string>
+    <string name="dictionary_not_found">Словарь \"%1$s\" не найден. Пожалуйста установите словарь.</string>
+    <string name="original_language">Язык оригинала</string>
+    <string name="translation_language">Язык перевода</string>
+    <string name="undefined_phrase">Язык не найден: %1$s</string>
+    <string name="file_not_found">Файл не найден: %1$s</string>
+    <string name="delete_document">Вы действительно хотите удалить книгу \"%1$s\" из истории?</string>
+    <string name="loading_book">Загрузка книги ...</string>
+    <string name="loading_catalogue">Загрузка каталога ...</string>
+    <string name="connection_error">Ошибка подключения к серверу библиотеки. Пожалуйста проверьте сетевые настройки.
+    </string>
+    <string name="bookmark_position">%1$.1f%%; Фраза #%2$d</string>
+    <string name="delete_bookmark">Удалить закладку?</string>
+    <string name="bookmark_is_added">Закладка добавлена.</string>
+    <string name="close">Закрыть</string>
+    <string name="read_method">Метод чтения</string>
+    <string name="to_dictionary">В словарь</string>
+    <string name="add_to_dictionary">Добавить в словарь</string>
+
+    <string-array name="read_method_list">
+        <item>Любой</item>
+        <item>Параллельный перевод</item>
+        <item>Метод Франка</item>
+    </string-array>
+
+    <string name="about_text"><![CDATA[
+        <h3>%1$s</h3>
+        <a href="mailto:r.v.poterin@gmail.com">r.v.poterin@gmail.com</a>
+        <br/><br/>
+        <a href="http://poterin.ru/ml/">Больше информации</a>
+        <br/>
+    ]]>
+    </string>
+
+    <string-array name="genre_list">
+        <item>Любой</item>
+        <item>Детский</item>
+        <item>Взрослый</item>
+    </string-array>
+
+    <string name="delete_bookmark_after_use">Удалять закладку после использования</string>
+    <string name="delete_bookmark_after_insert">Удалять старые закладки после добавления новой</string>
+    <string name="page">Страница:</string>
+    <string name="phrase">Фраза:</string>
+    <string name="find_text">введите текст</string>
+    <string name="case_sensitive">Учитывать регистр</string>
+    <string name="whole_word">Слово целиком</string>
+    <string name="forward_from_current">С текущей страницы вперед</string>
+    <string name="backward_from_current">С текущей страницы назад</string>
+    <string name="forward_from_begin">С начала книги вперед</string>
+    <string name="backward_from_end">С конца книги назад</string>
+    <string name="text_not_found">Текст не найден.</string>
+    <string name="tap_on_edge_scroll">Листать по нажатию на правый/левый край</string>
+    <string name="cannot_open_book">Не могу открыть книгу:</string>
+    <string name="speech_speed">Скорость озвучивания</string>
+    <string name="yandex_translating">Перевод фразы через \"Яндекс.Перевод\", подождите ...</string>
+    <string name="yandex_translate_error">
+        Ошибка подключения к серверу \"Яндекс.Перевод\". Пожалуйста проверьте сетевые настройки.
+    </string>
+    <string name="translate_by_yandex">Переводить через \"Яндекс.Перевод\" в случае отсутствия перевода</string>
+    <string name="genre">Жанр</string>
+    <string name="filter">Фильтр</string>
+    <string name="expand_all">Развернуть все</string>
+    <string name="collapse_all">Свернуть все</string>
+    <string name="no_book">Нет книг удовлетворяющих данным условиям</string>
+    <string name="page_margins">Отступы</string>
+    <string name="left_margin">Слева</string>
+    <string name="right_margin">Справа</string>
+    <string name="top_margin">Сверху</string>
+    <string name="bottom_margin">Снизу</string>
+    <string name="scroll_on_volume_key">Листать кнопками громкости</string>
+    <string name="is_night_mode">Ночной режим</string>
+    <string name="word_phrase">Слово/Фраза</string>
+    <string name="translation">Перевод</string>
+    <string name="add_phrase_word">Добавить слово/фразу</string>
+    <string name="edit_phrase_word">Редактировать слово/фразу</string>
+    <string name="delete_selected">Удалить выделенные</string>
+    <string name="delete_all">Удалить все</string>
+    <string name="delete_selected_items">Удалить выделенные (%1$d) слова?</string>
+    <string name="delete_all_items">Удалить все слова?</string>
+    <string name="edit_selected">Редактировать выделенный</string>
+    <string name="found_translation">В словаре: %1$s</string>
+    <string name="study_words">Учить слова</string>
+    <string name="i_know">Знаю</string>
+    <string name="i_dont_know">Не знаю</string>
+    <string name="i_knew">Я знал</string>
+    <string name="i_didnt_know">Я не знал</string>
+    <string name="studying_statistics">Пройдено слов: %1$d\nИз них известно: %2$d</string>
+    <string name="no_unstudied_words">В словаре нет невыученных слов.</string>
+    <string name="reset_study_progress">Обнулить прогресс обучения</string>
+    <string name="reset_study_progress_selected_items">Обнулить прогресс обучения для выделенных (%1$d) слов?</string>
+    <string name="delete_learned_words">Удалить выученные слова</string>
+    <string name="delete_learned_words_question">Удалить все (%1$d) выученные слова?</string>
+    <string name="voice_in_training">Озвучивать при обучении</string>
+    <string name="no_learned_words">В словаре нет выученных слов.</string>
+</resources>
+

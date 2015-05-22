@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp">
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_bookmark_after_use"
+        android:id="@+id/checkBoxDeleteBookmarkAfterUse"
+        android:layout_margin="5dp"
+        android:singleLine="false"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_bookmark_after_insert"
+        android:id="@+id/checkBoxDeleteBookmarksAfterInsert"
+        android:layout_margin="5dp"
+        android:singleLine="false"/>
+</LinearLayout>

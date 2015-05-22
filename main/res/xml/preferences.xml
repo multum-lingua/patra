@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:number_scroller="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.poterin.andorra.NumberScrollerPreferences
+        android:key="phrasesOnPage"
+        android:title="@string/phrases_on_page"
+        number_scroller:min="1"
+        number_scroller:max="100"
+        android:defaultValue="3"/>
+
+    <com.poterin.andorra.NumberScrollerPreferences
+        android:key="fontSize"
+        android:title="@string/font_size"
+        number_scroller:min="1"
+        number_scroller:max="100"
+        android:defaultValue="20"/>
+
+    <com.poterin.andorra.NumberScrollerPreferences
+        android:key="speechSpeed"
+        android:title="@string/speech_speed"
+        number_scroller:min="0.1"
+        number_scroller:max="2.0"
+        number_scroller:step="0.1"
+        number_scroller:format="%.1f"
+        android:defaultValue="1.0"/>
+
+    <ListPreference
+        android:key="defaultDictionary"
+        android:title="@string/default_dictionary"
+        android:entries="@array/dictionaries"
+        android:defaultValue="google_translator"
+        />
+
+    <ListPreference
+        android:key="primaryLanguage"
+        android:title="@string/original_language"
+        android:defaultValue="eng"
+        />
+
+    <ListPreference
+        android:key="secondaryLanguage"
+        android:title="@string/translation_language"
+        android:defaultValue="rus"
+        />
+
+    <CheckBoxPreference
+        android:key="translateByYandex"
+        android:summary="@string/translate_by_yandex"
+        android:defaultValue="true"
+        />
+
+    <PreferenceScreen
+        android:title="@string/page_margins"
+        android:key="pageMargins"
+        >
+
+        <com.poterin.andorra.NumberScrollerPreferences
+            android:key="leftMargin"
+            android:title="@string/left_margin"
+            number_scroller:min="0"
+            number_scroller:max="50"
+            android:defaultValue="0"/>
+
+        <com.poterin.andorra.NumberScrollerPreferences
+            android:key="rightMargin"
+            android:title="@string/right_margin"
+            number_scroller:min="0"
+            number_scroller:max="50"
+            android:defaultValue="0"/>
+
+        <com.poterin.andorra.NumberScrollerPreferences
+            android:key="topMargin"
+            android:title="@string/top_margin"
+            number_scroller:min="0"
+            number_scroller:max="50"
+            android:defaultValue="0"/>
+
+        <com.poterin.andorra.NumberScrollerPreferences
+            android:key="bottomMargin"
+            android:title="@string/bottom_margin"
+            number_scroller:min="0"
+            number_scroller:max="50"
+            android:defaultValue="0"/>
+    </PreferenceScreen>
+
+    <CheckBoxPreference
+        android:key="scrollOnTap"
+        android:summary="@string/tap_on_edge_scroll"
+        android:defaultValue="false"
+        />
+
+    <CheckBoxPreference
+        android:key="scrollOnVolumeKey"
+        android:summary="@string/scroll_on_volume_key"
+        android:defaultValue="false"
+        />
+
+
+    <CheckBoxPreference
+        android:key="isNightMode"
+        android:summary="@string/is_night_mode"
+        android:defaultValue="false"
+        />
+
+</PreferenceScreen>

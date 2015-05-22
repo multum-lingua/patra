@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#F8F6E8"
+              android:weightSum="1"
+              android:id="@+id/layoutContent"
+              android:focusableInTouchMode="false">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/book_progress"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutSearch"
+        android:gravity="center_vertical"
+        android:weightSum="1"
+        android:background="#E5E3D7"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewFindText"
+            android:text="@+id/textViewFindText"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:singleLine="true"/>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/buttonLeft"
+            android:src="@drawable/to_left"
+            android:background="?android:selectableItemBackground"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="5dp"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/buttonRight"
+            android:src="@drawable/to_right"
+            android:background="?android:selectableItemBackground"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="20dp"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/buttonClose"
+            android:src="@drawable/close"
+            android:background="?android:selectableItemBackground"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

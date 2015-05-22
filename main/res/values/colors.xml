@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="panelFullBackground">#F0F0F0</color>
+    <color name="main_menu_divider">#CCCCCC</color>
+    <!-- May be replaced to "@android:color/holo_blue_light" from API 14. -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+</resources>

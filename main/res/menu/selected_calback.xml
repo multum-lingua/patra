@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuVoice"
+          android:showAsAction="always"
+          android:icon="@drawable/voice"
+          android:title="@string/menu_voice"
+        />
+    <item android:id="@+id/menuTranslate"
+          android:showAsAction="always"
+          android:icon="@drawable/ic_google_translator"
+          android:title="@string/translate"
+        />
+    <item android:id="@+id/menuSelectTranslator"
+          android:showAsAction="always"
+          android:icon="@drawable/ic_translators"
+          android:title="@string/translate"
+        />
+</menu>

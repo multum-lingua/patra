@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_dialog_title">Настройки</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+</resources>
+
