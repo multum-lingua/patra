@@ -1,7 +1,7 @@
 The main repositary of "Multum Lingua" project.
 =============
 
-* See http://poterin.ru/ml/ for more information.
+See http://poterin.ru/ml/ for more information.
  
 ### License ###
 
