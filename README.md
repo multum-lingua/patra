@@ -1,3 +1,9 @@
-# The main repositary of "Multum Lingua" project.
+The main repositary of "Multum Lingua" project.
+=============
 
-* [Web site] (http://poterin.ru/ml/)
+* See http://poterin.ru/ml/ for more information.
+ 
+### License ###
+
+This content is released under the (http://opensource.org/licenses/MIT) MIT License.
+
